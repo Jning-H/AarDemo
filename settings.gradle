@@ -1,1 +1,1 @@
-include ':app', ':lizardsdk'
+include ':app', ':lizardsdk', ':kerrysdk'
