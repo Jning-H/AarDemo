@@ -16,6 +16,6 @@ public class KerryFather {
         this.mName = mName;
     }
     public void print(){
-        Log.e(TAG,this.getClass().getSimpleName()+"     "+mName);
+        Log.e(TAG,mName+"     KerryFather");
     }
 }

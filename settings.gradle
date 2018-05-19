@@ -1,1 +1,1 @@
-include ':app', ':lizardsdk', ':kerrysdk'
+include ':app', ':lizardsdk', ':kerrysdk', ':floatwindow'

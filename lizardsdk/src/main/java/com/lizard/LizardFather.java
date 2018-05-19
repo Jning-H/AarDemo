@@ -18,11 +18,11 @@ public class LizardFather {
         this.mName = mName;
     }
     public LizardFather print(){
-        Log.e(TAG,this.getClass().getSimpleName()+"     "+mName);
+        Log.e(TAG,mName+"     LizarFather");
         return this;
     }
 
     public void useKerryPrint(){
-        new KerryChild("Main").print();
+        new KerryChild(this.getClass().getSimpleName()).print();
     }
 }

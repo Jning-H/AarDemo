@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AarDemo.iml" filepath="$PROJECT_DIR$/AarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatwindow/floatwindow.iml" filepath="$PROJECT_DIR$/floatwindow/floatwindow.iml" />
       <module fileurl="file://$PROJECT_DIR$/kerrysdk/kerrysdk.iml" filepath="$PROJECT_DIR$/kerrysdk/kerrysdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/lizardsdk/lizardsdk.iml" filepath="$PROJECT_DIR$/lizardsdk/lizardsdk.iml" />
     </modules>
