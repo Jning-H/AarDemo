@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by Administrator on 2018-05-19.
  */
 
-public class KerryFather {
+public class KerrySuper {
     private static final String TAG= "aar_Kerry";
     private String mName;
     public String getmName() {
@@ -16,6 +16,6 @@ public class KerryFather {
         this.mName = mName;
     }
     public void print(){
-        Log.e(TAG,mName+"     KerryFather");
+        Log.e(TAG,mName+"     KerrySuper");
     }
 }

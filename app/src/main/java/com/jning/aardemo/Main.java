@@ -1,15 +1,8 @@
 package com.jning.aardemo;
 
-//import com.kerry.KerryChild;
-import android.app.PendingIntent;
-import android.content.ComponentName;
-import android.content.Intent;
-import android.view.View;
-import android.view.animation.BounceInterpolator;
-import android.widget.ImageView;
+//import com.kerry.Kerry;
 
-import com.lizard.LizardChild;
-import com.yhao.floatwindow.FloatWindow;
+import com.lizard.Lizard;
 
 /**
  * Created by Administrator on 2018-05-19.
@@ -17,8 +10,8 @@ import com.yhao.floatwindow.FloatWindow;
 
 public class Main {
     public void main (String [] args) {
-        new LizardChild("Main").print();
-//        new KerryChild("Main").print();
+        new Lizard("Main").print();
+//        new Kerry("Main").print();
 
     }
 }

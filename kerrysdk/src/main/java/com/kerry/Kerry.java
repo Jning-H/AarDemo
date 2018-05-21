@@ -4,12 +4,12 @@ package com.kerry;
  * Created by Administrator on 2018-05-19.
  */
 
-public class KerryChild extends KerryFather{
+public class Kerry extends KerrySuper {
 
-    public KerryChild() {
+    public Kerry() {
     }
 
-    public KerryChild(String mName) {
+    public Kerry(String mName) {
         super.setmName(mName);
     }
 

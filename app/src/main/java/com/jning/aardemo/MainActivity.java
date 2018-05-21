@@ -1,8 +1,5 @@
 package com.jning.aardemo;
 
-import android.app.PendingIntent;
-import android.content.ComponentName;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lizard.LizardChild;
+import com.lizard.Lizard;
 import com.yhao.floatwindow.FloatWindow;
 import com.yhao.floatwindow.MoveType;
 import com.yhao.floatwindow.Screen;
@@ -25,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        new LizardChild(this.getClass().getSimpleName()).print().useKerryPrint();
+        new Lizard(this.getClass().getSimpleName()).print().useKerryPrint();
 
-//        new KerryChild("Main").print();
+//        new Kerry("Main").print();
 
         ((TextView)findViewById(R.id.tv_content)).setText(R.string.float_str);
 
