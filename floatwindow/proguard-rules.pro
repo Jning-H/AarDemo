@@ -19,3 +19,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#-keep com.yhao.floatwindow.FloatWindow
+#-keep com.yhao.floatwindow.Screen
+#-keep com.yhao.floatwindow.MoveType
+
+#-ignorewarnings -keep class * { public private *; }

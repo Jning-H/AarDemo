@@ -1,6 +1,7 @@
 package com.yhao.floatwindow;
 
 import android.animation.TimeInterpolator;
+import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.MainThread;
@@ -9,6 +10,9 @@ import android.support.annotation.Nullable;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.example.fixedfloatwindow.R;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,6 +30,12 @@ public class FloatWindow {
 
     private static final String mDefaultTag = "default_float_window_tag";
     private static Map<String, IFloatWindow> mFloatWindowMap;
+
+//    public static String getRes(Activity activity){
+//            ((TextView)activity.findViewById(R.id.tv_float_setString)).setText(activity.getResources().getString(R.string.float_str) + "\nFloatWindow引用自己的资源" );
+//            ((TextView)activity.findViewById(R.id.tv_float_setString)).setTextColor(activity.getResources().getColor(R.color.greeny));
+//            return ((TextView)activity.findViewById(R.id.tv_float_setString)).getText().toString();
+//    }
 
     public static IFloatWindow get() {
         return get(mDefaultTag);
